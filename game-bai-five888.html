@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>️⚽ FIVE888 ⚽Nhà Cái Cá Cược Thể Thao Uy Tín Nhất Châu Á 2024</title>
+  <meta name="description"
+  content="Five888 là nhà cái uy tín nhất 2023. Cung cấp sản phẩm cá cược trực tuyến 24/7 đa dạng: thể thao, tài xỉu, casino, bắn cá, xóc đĩa.">
+  <meta name="keywords"
+  content="FIVE888 Nhà cái cá cược hàng đầu tại Việt Nam :Xổ số,Tài xỉu,Xóc đĩa,Nổ hũ,Thể thao,Bắn cá,Đá gà" />
+  <link rel="icon" href="./assets/images/favicon.png" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/jquery-3.7.1.min.js"></script>
+  <script src="assets/tailwind.js"></script>
+  <link rel="stylesheet" href="./assets/index.css" />
+
+</head>
+
+<body>
+  <div id="showloading" class=" h-screen w-full left-0 bg-[#adadadbe] top-0 fixed duration-1000 z-50">
+    <div class=' space-x-2 justify-center flex items-center mt-[20%]'>
+      <div class='h-8  w-8 bg-black rounded-full animate-bounce [animation-delay:0s]'></div>
+      <div class='h-8 w-8 bg-black rounded-full animate-bounce [animation-delay:-0.3s]'></div>
+      <div class='h-8 w-8 bg-black rounded-full animate-bounce'></div>
+    </div>
+  </div>
+
+  <header id="header"></header>
+
+
+  <main class="my-5 md:py-10">
+
+    <div class="container mx-auto max-w-screen-xl content text-gray-700">
+        <h4 class="text-center my-5 md:my-10"><strong> GAME BÀI</strong></h4>
+      <div class="grid grid-cols-12 gap-7">
+        <div class="col-span-12 md:col-span-9 md:border-e border-gray-300" >
+            <div class="content_left">
+                <div class="grid-template">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-span-12 md:col-span-3" id="content_right"></div>
+        
+
+      </div>
+      <hr class="border-t border-gray-200 mt-20">
+    </div>
+
+
+  </main>
+
+
+  <footer id="footer"></footer>
+  <div id="backtotop"></div>
+
+    <script>
+    var active = 'GAME BÀI';
+    const items_boxs = [
+        {
+            id: 16,
+            img: "11-2-768x432.png.webp",
+            h3: "Game bài đổi thưởng “siêu đỉnh” tại Five888",
+            p: "Five888 là một trong những sân chơi giải trí trực tuyến uy tín hàng đầu...					",
+        },
+        {
+            id: 17,
+            img: "9-1-768x432.png.webp",
+            h3: "Đánh bài online đổi thưởng “cực hấp dẫn” tại Five888",
+            p: "Đánh bài online tại Five888 là dòng game được nhiều anh em “săn lùng”, bởi...					",
+        },
+        
+    ];
+
+    $.each(items_boxs, function(index, item){
+        const item_box = `
+        <div class="shadow-lg">
+                    <img onclick="detail(${item.id})" class="cursor-pointer" src="./assets/images/${item.img}" alt="">
+                    <div class="p-8">
+                        <h3 onclick="detail(${item.id})" class="text-[1.6rem] text-[#FFB700] font-semibold mb-4 cursor-pointer">${item.h3}</h3>
+                        <p onclick="detail(${item.id})" class="cursor-pointer hover:text-gray-900">${item.p}</p>
+                    </div>
+                </div>
+        `;
+        $(".grid-template").append(item_box);
+    });
+
+    </script>
+    <script src="./assets/javascript.js"></script>
+</body>
+
+</html>
